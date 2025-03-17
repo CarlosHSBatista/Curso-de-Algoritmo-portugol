@@ -7,8 +7,8 @@ leia (xerox)
 folha <- 0.25
 desconto <- 0.20
 se xerox > 100 entao
- escreva("Preço a pagar ", xerox * desconto)
+ escreva("PreÃ§o a pagar ", xerox * desconto)
 senao
- escreva("Preço a pagar ", xerox * folha)
+ escreva("PreÃ§o a pagar ", xerox * folha)
 fimse
 fimalgoritmo
