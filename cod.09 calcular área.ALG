@@ -4,13 +4,13 @@ var
    n : caracter
 inicio
    repita
-      escreva("Informa o número da área: ")
+      escreva("Informa o nÃºmero da Ã¡rea: ")
       leia(area)
       soma <- pi * area^2
       se 0 < soma entao
          escreval("A soma da area e: ", soma)
       senao
-         escreval("Não executavel")
+         escreval("NÃ£o executavel")
       fimse
       escreval("Quer fazer novamente? (s/n)")
       leia(n)
