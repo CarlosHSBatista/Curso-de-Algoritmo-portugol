@@ -1,4 +1,5 @@
 algoritmo "semnome"
+// 20/03/2025
 var
    a, b, c :inteiro
    n : caracter
