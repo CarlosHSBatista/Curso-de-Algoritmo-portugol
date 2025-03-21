@@ -13,16 +13,17 @@ inicio
       se (a <(b + c)) e (b <(c + a)) e (c <(a + b)) entao
 
          se (a = b) e (b = c) e (c = a) entao
-            escreva("equilatero")
+            escreval("E um triangulo equilatero")
          fimse
          se (a <> b) e (b <> c) e (c <> a) entao
-            escreva("escaleno")
+            escreval("E um triangulo escaleno")
          senao
-            escreva("is")
+            escreval("E um triangulo isosceles")
          fimse
       senao
-         escreva("nao")
+         escreval("Não se forma um triangulo")
       fimse
+      escreva("Quer executar outro calculo? (s/n)")
       leia(n)
       limpatela
    ate(n = "n")
