@@ -1,4 +1,4 @@
-algoritmo "media de consumo total de kilometros e gasolina"
+algoritmo "media de consumo total de quilômetro e gasolina"
 // 21/03/2025
 // 00:04
 var
@@ -6,7 +6,7 @@ var
    n : caracter
 inicio
    repita
-      escreva("Infome quantos kilometros foi percorrido: ")
+      escreva("Infome quantos quilômetro foi percorrido: ")
       leia(km)
       escreva("Infore o gasto de gasolina: ")
       leia(gasu)
