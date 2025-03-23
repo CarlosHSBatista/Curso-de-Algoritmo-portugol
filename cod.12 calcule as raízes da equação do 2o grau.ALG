@@ -10,9 +10,9 @@ inicio
       leia(b)
       escreva("Informe o primeiro numero: ")
       leia(c)
-      delta <- -b^2 4 * a * c
-      x1 <- -b + delta^(1/2) / (2*a)
-      x2 <- -b - delta^(1/2) / (2*a)
+      delta <- (-b^2) - (4 * a * c)
+      x1 <- (-b + raizq(delta)) / (2*a)
+      x2 <- (-b - raizq(delta)) / (2*a)
       escreval("A soma e: ",x1 + x2)
       escreva("Quer fazer outro calculo? (s/n) ")
       leia(n)
