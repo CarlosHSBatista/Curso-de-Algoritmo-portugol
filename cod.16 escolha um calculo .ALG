@@ -7,23 +7,24 @@ n1, n2 : real
 casos, soma, multiplicacao, divisao, subtracao, n : caracter
 inicio
     repita
-      escreval("-----------------------------------")
-      escreval("Escolha quais contas voce que fazer")
-      escreval("-----------------------------------")
+      escreval("---------------------------------")
+      escreval("Escolha quais numero para a soma?")
+      escreval("---------------------------------")
 
       escreval("")
-      escreval("Escolha um numero: ")
+      escreval("Numero um: ")
       leia(n1)
-      escreva("Escolha outro numero: ")
+      escreval("Numero dois: ")
       leia(n2)
       escreval("")
 
-      escreval("--------------")
-      escreval("+")
-      escreval("-")
-      escreval("/")
-      escreval("*")
-      escreval("---------------")
+      escreval("--------------------")
+      Escreval("*menu de oprerações*")
+      escreval(" + :Adição          ")
+      escreval(" - :Subtração       ")
+      escreval(" / :divisão         ")
+      escreval(" * :Multiplicação   ")
+      escreval("--------------------")
       leia(casos)
 
       escolha casos
