@@ -10,8 +10,8 @@ inicio
       escreval("-----------------------------------")
       escreval("Escolha quais contas voce que fazer")
       escreval("-----------------------------------")
-      escreval("")
 
+      escreval("")
       escreval("Escolha um numero: ")
       leia(n1)
       escreva("Escolha outro numero: ")
