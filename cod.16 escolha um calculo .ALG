@@ -19,21 +19,21 @@ inicio
       escreval("")
 
       escreval("--------------")
-      escreval("soma")
-      escreval("divisao")
-      escreval("subtracao")
-      escreval("multiplicacao")
+      escreval("+")
+      escreval("-")
+      escreval("/")
+      escreval("*")
       escreval("---------------")
       leia(casos)
 
       escolha casos
-        caso "soma"
+        caso "+"
           escreval("A soma entre ",n1," e ",n2," e: ",n1 + n2)
-        caso "divisao"
+        caso "/"
           escreval("A divisao entre ",n1," e ",n2," e: ",n1 / n2)
-        caso "subtracao"
+        caso "-"
           escreval("A subtracao entre ",n1," e ",n2," e: ",n1 - n2)
-        caso "multiplicacao"
+        caso "*"
           escreval("A multiplicacao entre ",n1," e ",n2," e: ",n1 * n2)
         outrocaso
           escreval("Nehuma soma encontrada")
