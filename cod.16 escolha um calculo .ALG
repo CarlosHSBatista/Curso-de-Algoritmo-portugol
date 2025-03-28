@@ -11,13 +11,13 @@ inicio
       escreval("Escolha quais contas voce que fazer")
       escreval("-----------------------------------")
       escreval("")
-      
+
       escreval("Escolha um numero: ")
       leia(n1)
       escreva("Escolha outro numero: ")
       leia(n2)
       escreval("")
-      
+
       escreval("--------------")
       escreval("soma")
       escreval("divisao")
@@ -25,18 +25,20 @@ inicio
       escreval("multiplicacao")
       escreval("---------------")
       leia(casos)
-      
+
       escolha casos
         caso "soma"
-          escreva("A soma entre ",n1," e ",n2," e: ",n1 + n2)
+          escreval("A soma entre ",n1," e ",n2," e: ",n1 + n2)
         caso "divisao"
-          escreva("A divisao entre ",n1," e ",n2," e: ",n1 / n2)
+          escreval("A divisao entre ",n1," e ",n2," e: ",n1 / n2)
         caso "subtracao"
-          escreva("A subtracao entre ",n1," e ",n2," e: ",n1 - n2)
+          escreval("A subtracao entre ",n1," e ",n2," e: ",n1 - n2)
         caso "multiplicacao"
-          escreva("A multiplicacao entre ",n1," e ",n2," e: ",n1 * n2)
+          escreval("A multiplicacao entre ",n1," e ",n2," e: ",n1 * n2)
+        outrocaso
+          escreval("Nehuma soma encontrada")
       fimescolha
-      escreva("Deseja fazer novamente? (s/n)")
+      escreva("Deseja fazer novamente? (s/n) ")
       leia(n)
       limpatela
     ate(n = "n")
