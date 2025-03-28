@@ -4,9 +4,9 @@ algoritmo "escolha de somas"
 // funciona so em visualg 2.5
 var
 n1, n2 : real
-casos, soma, multiplicacao, divisao, subtracao : caracter
+casos, soma, multiplicacao, divisao, subtracao, n : caracter
 inicio
-
+    repita
       escreval("-----------------------------------")
       escreval("Escolha quais contas voce que fazer")
       escreval("-----------------------------------")
@@ -36,4 +36,8 @@ inicio
         caso "multiplicacao"
           escreva("A multiplicacao entre ",n1," e ",n2," e: ",n1 * n2)
       fimescolha
+      escreva("Deseja fazer novamente? (s/n)")
+      leia(n)
+      limpatela
+    ate(n = "n")
 fimalgoritmo
