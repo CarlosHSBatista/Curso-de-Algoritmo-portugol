@@ -11,7 +11,7 @@ inicio
   escreval("")
   
   x <- 1 // voltando para numero 1
-  enquanto x <= 10 faca
+  enquanto x <= 10 faca // nquanto <condição> faca
    escreval(y," x",x," =",x*y)// formula para sempre repitir ate parar
    x <- x + 1 // limitando para nao repetir o mesmo numero e mudando com + 1 tpi 1,2,3,4,5,6 se nao vai ser so 1
   fimenquanto
