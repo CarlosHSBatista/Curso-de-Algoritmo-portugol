@@ -21,7 +21,5 @@ inicio
   repita
   escreval(y," x",x," =",x*y)// formula para sempre repitir ate parar
    x <- x + 1 // limitando para nao repetir o mesmo numero e mudando com + 1 tpi 1,2,3,4,5,6 se nao vai ser so 1
-   ate(x >= 11) // vai ate aonde voce escolheu
-  fimrepita
-  
+   ate(x >= 11) // vai ate aonde voce escolheu 
 fimalgoritmo
